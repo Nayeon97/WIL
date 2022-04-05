@@ -13,6 +13,7 @@
 ### 📚 정리한 글들
 
 #### 1️⃣  Javascript
-#### 2️⃣  React
+#### 2️⃣  React <br />
+[리액트란?](https://github.com/Nayeon97/TIL/blob/1b3f3a8073d7eec0cc6d67a8dde53b553453e5ec/React/React.md) 
 #### 3️⃣  Css
 
