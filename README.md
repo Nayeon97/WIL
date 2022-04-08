@@ -16,8 +16,8 @@
 - [얕은 복사, 깊은 복사 : 팀프로젝트 기간에 만난 오류의 원인](https://github.com/Nayeon97/WIL/blob/9f3c94f9a800aedb9dc6a7b8a757145f2ec86959/JS/%EC%96%95%EC%9D%80%20%EB%B3%B5%EC%82%AC,%20%EA%B9%8A%EC%9D%80%20%EB%B3%B5%EC%82%AC.md)
 #### ✔️  React <br />
 - [리액트란?](https://github.com/Nayeon97/TIL/blob/1b3f3a8073d7eec0cc6d67a8dde53b553453e5ec/React/React.md) <br />
-- [SPA : react 에서 왜 a 태그 사용을 권하지 않을까? ](https://github.com/Nayeon97/WIL/blob/14d7d5aaf41a6525429643a82db96f59db1593f3/React/SPA%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EA%B2%8C%EB%90%98%EB%8B%A4.md) <br />
-- [디렉토리 구조 : 파일 구조에 대해 고민](https://github.com/Nayeon97/WIL/blob/14d7d5aaf41a6525429643a82db96f59db1593f3/React/%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EA%B5%AC%EC%A1%B0.md) <br />
+- [SPA : react 에서 왜 a 태그 사용을 권장하지 않을까? ](https://github.com/Nayeon97/WIL/blob/14d7d5aaf41a6525429643a82db96f59db1593f3/React/SPA%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EA%B2%8C%EB%90%98%EB%8B%A4.md) <br />
+- [디렉토리 구조 : 프로젝트 기간에 파일 구조에 대해 고민](https://github.com/Nayeon97/WIL/blob/14d7d5aaf41a6525429643a82db96f59db1593f3/React/%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%EA%B5%AC%EC%A1%B0.md) <br />
 #### ✔️ Css
 
 #### ✔️ Book
