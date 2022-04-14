@@ -154,7 +154,7 @@ function CountProvider(props) {
 }
 ```
 
-useMemo를 사용하게 되면, state 값이 변경될 때만, 렌더링되도록 할 수 있기때문에, 불필요한 렌더링을 방지할 수 있다고 한다. 다만 이게 최선인지는 모르겠다...
+[해당 자료](https://github.com/kentcdodds/old-kentcdodds.com/blob/319db97260078ea4c263e75166f05e2cea21ccd1/content/blog/how-to-optimize-your-context-value/index.md)에서 useMemo를 사용하게 되면, state 값이 변경될 때만, 렌더링되도록 할 수 있기때문에, 불필요한 렌더링을 방지할 수 있다고 한다. 하지만 나는 이게 최선은 아닌 것 같다는 생각이 들었다!
 
 ```js
 function CountProvider(props) {
@@ -168,16 +168,14 @@ function CountProvider(props) {
 }
 ```
 
-예를 들어 위에서 useCountContextComponent 는 CountContext.Provider에 넘겨준 value 를 사용하지만,notUseCountContextComponent 는 사용하지 않는 컴포넌트라고 하면, 결국 value 값이 바뀔 때 value 를 사용하지 않는 notUseCountContextComponent 컴포넌트도 렌더링 된다!  
-그렇기에 useMemo 가 확실한 해결책은 아닌것 같다는 의문이 생겼다.. 그렇기에 리덕스를 사용하나..? 하는 생각이 들었다..!
+예를 들어 위에서 useCountContextComponent 는 CountContext.Provider에 넘겨준 value 를 사용하지만,notUseCountContextComponent 는 사용하지 않는 컴포넌트라고 하면, 결국 value 값이 바뀔 때 value 를 사용하지 않는 notUseCountContextComponent 컴포넌트도 렌더링 되기 때문에, 값이 바뀌지 않을 때도 다시 렌더링이 되는 부분은 useMemo 로 해결할 수 있지만, 완벽하게 모든 상황을 해결할 수 는 없다는 생각이 들었다...그렇기에 useMemo 가 확실한 해결책은 아닌것 같다는 의문이 생겼다..
 
-해당 자료를 더 찾다보니 [블로그](https://velog.io/@yrnana/Context-API%EA%B0%80-%EC%A1%B4%EC%9E%AC%ED%95%98%EC%A7%80%EB%A7%8C-%EC%97%AC%EC%A0%84%ED%9E%88-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%B4-redux%EC%99%80-%EC%A0%84%EC%97%AD-%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%EB%A5%BC-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0#context-api%EC%9D%98-%EB%AC%B8%EC%A0%9C) 를 발견하였는데, 여기서 컨텍스트를 상태값 / 액션으로 나누는 방법이 있었다! 다만, 모든 문제를 해결할 수 없고, 그렇기 때문에 많은 개발자들이 리덕스를 사용하고 있다고 한다..!!
+해당 부분에 대해 더 찾다보니 자세히 설명되어있는 [블로그](https://velog.io/@yrnana/Context-API%EA%B0%80-%EC%A1%B4%EC%9E%AC%ED%95%98%EC%A7%80%EB%A7%8C-%EC%97%AC%EC%A0%84%ED%9E%88-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%B4-redux%EC%99%80-%EC%A0%84%EC%97%AD-%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%EB%A5%BC-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0#context-api%EC%9D%98-%EB%AC%B8%EC%A0%9C) 를 발견하였는데, 여기서 컨텍스트를 상태값 / 액션으로 나누는 방법이 있었다! 다만, 모든 문제를 해결할 수 없고, 그렇기 때문에 많은 개발자들이 리덕스를 사용하고 있다고 한다..!!
 
-이로써 나의 궁금증이 해결된 것 같다!!
+이로써 나의 궁금증이 해결된 것 같다!! (물론, 재사용성에 대한 부분은 더 공부해야할 부분이다.)
 
 물론 아직 많은 부분에서 부족하기에 지금의 글은 계속해서 조금씩 보완해나갈 예정이다!!
 
 ---
 
-https://dongmin-jang.medium.com/reactjs-context-api-korean-%ED%95%9C%EA%B8%80-%EC%9E%91%EC%84%B1%EC%A4%91-79edaf18efff  
-https://github.com/kentcdodds/old-kentcdodds.com/blob/319db97260078ea4c263e75166f05e2cea21ccd1/content/blog/how-to-optimize-your-context-value/index.md
+https://dongmin-jang.medium.com/reactjs-context-api-korean-%ED%95%9C%EA%B8%80-%EC%9E%91%EC%84%B1%EC%A4%91-79edaf18efff
