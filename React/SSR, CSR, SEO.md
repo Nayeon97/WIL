@@ -58,6 +58,51 @@ CSR 에서 SEO 가 되지않는다는 것은 오해라고 한다! 많은 크롤�
 
 ---
 
+2022.4.16일 업데이트
+
+## 🙋‍♀️ title 태그와 meta 태그로 SEO 커버가 가능한데 왜 next.js를....?
+
+면접 스터디를 준비하던 중에, title 태그와 meta 태그로 SEO 커버가 가능하다는 사실을 알았다! 그럼 왜 next.js 가 등장한 것일까..? 하는 의문이 생겨서, 매주 면접스터디에 세개의 질문리스트를 미리 작성해야하는데, 나의 세개의 질문 중 한개를 작성할 수 있었다!
+
+<img src="../imgs/LIST.png" width="800" height="200"/>
+
+일단 이 질문을 해결하기전에! title 태그와 meta 태그에 대해 먼저 정리해보자!
+
+### ✅ title 태그
+
+✔️ 해당 문서의 제목을 정의할 때 사용한다!  
+✔️ 브라우저의 제목 표시줄이나 페이지 탭의 제목으로 사용, 즐겨찾기 등록 시 해당 페이지에 대한 즐겨찾기 이름으로 사용!  
+✔️ 모든 HTML 문서에는 title 태그가 필요하지만, 두개 이상은 사용할 수 없다.  
+✔️ HTML 문서에 title 요소가 존재하지 않는다면 유효성 검사를 통과할 수 없다!
+
+### ✅ meta 태그
+
+✔️ 해당 문서에 대한 정보(metadata) 정의하기 위해 사용! -> 브라우저나 검색 엔진 최적화, 다른 웹 서비스에서 사용된다.  
+✔️ `<head>` 요소 내부에 위치한다.  
+✔️ 만약 name 속성이나 http-equiv 속성이 명시되었다면, 반드시 content 속성도 함께 명시한다.
+
+```html
+<!-- 검색 엔진을 위한 키워드를 정의하는 예제 !악용사례로 인해 현재는 거의 사용 X-->
+<meta name="keyword" content="HTML, meta, tag, element, reference" />
+<!-- 웹 페이지에 대한 설명을 정의하는 예제 -->
+<meta name="description" content="HTML meta tag page" />
+<!-- 문서의 저자를 정의하는 예제 -->
+<meta name="author" content="TCPSchool" />
+<!-- 5초 뒤에 다른 페이지로 리다이렉트시키는 예제 -->
+<meta http-equiv="refresh" content="5;url=http://www.tcpschool.com" />
+<!-- 모든 장치에서 웹 사이트가 잘 보이도록 뷰포트를 설정하는 예제 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+
+### 그럼 다시 질문으로 돌아와서...🏃‍♀️
+
+왜? next.js 를 쓸까...?
+
+> CSR 은 html 파일이 한개다!
+> 이것이 답이다!! CSR 은 html이 한 개이기 때문에, 여기에 모든 title, meta 정보를 넣은 것은 거의 불가능할 뿐더러, 낭비가 심하다! 심지어 title 은 두 개 이상 사용이 불가능하다!! 그렇기 때문에 next.js 를 쓰자!
+
+---
+
 https://developer.mozilla.org/ko/docs/Glossary/SEO  
 https://hyunseob.github.io/2019/05/26/google-io-2019-day-3/  
 https://velog.io/@zansol%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0-%EC%84%9C%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C%EB%A0%8C%EB%8D%94%EB%A7%81SSR-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EC%82%AC%EC%9D%B4%EB%93%9C%EB%A0%8C%EB%8D%94%EB%A7%81CSR  
