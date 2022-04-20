@@ -33,6 +33,8 @@
 
 - [마진 겹침 현상](https://github.com/Nayeon97/WIL/blob/ab5789ee123bb2e47fe9c4c6010b1a1ef9f77f6e/Css/%EB%A7%88%EC%A7%84%EA%B2%B9%EC%B9%A8%ED%98%84%EC%83%81.md)
 
+- [데이터 저장소: 역시 그냥 생긴 것은 없다! 다 이유가 있다! ](https://github.com/Nayeon97/WIL/blob/4bccaefe769f8e6ea718c9a53ff2dfc625e3227a/HTML,%20Css/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%80%EC%9E%A5%EC%86%8C.md)
+
 #### ✔️ Books
 
 - 모던 자바스크립트 Deep Dive <br />
