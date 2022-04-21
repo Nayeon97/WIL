@@ -42,4 +42,5 @@
   - [표현식과 문](https://github.com/Nayeon97/WIL/blob/358b9386554efbc248d6f3d44dd045d7d1aa8a82/Books/Modern_JS/5%EC%9E%A5_%ED%91%9C%ED%98%84%EC%8B%9D%EA%B3%BC%20%EB%AC%B8.md) <br />
   - [데이터 타입](https://github.com/Nayeon97/WIL/blob/06b45fde8a6d83d4c48a3e45e4aabbaef8b05a45/Books/Modern_JS/6%EC%9E%A5_%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85.md) <br />
   - [연산자](https://github.com/Nayeon97/WIL/blob/a057844e0911f4dcf4d3bda0a71acbe91dc4805f/Books/Modern_JS/7%EC%9E%A5_%EC%97%B0%EC%82%B0%EC%9E%90.md) <br />
-  - [제어문](Books/Modern_JS/8장_제어문.md)
+  - [제어문](Books/Modern_JS/8장_제어문.md) <br />
+  - [타입 변환과 단축 평가](https://github.com/Nayeon97/WIL/blob/6aa9cf050705ee4e21f555c9e63c74cbcee834a5/Books/Modern_JS/9%EC%9E%A5_%ED%83%80%EC%9E%85%20%EB%B3%80%ED%99%98%EA%B3%BC%20%EB%8B%A8%EC%B6%95%20%ED%8F%89%EA%B0%80.md)
