@@ -16,7 +16,9 @@
 
 #### ✔️ Javascript
 
-- [얕은 복사, 깊은 복사 : 팀프로젝트 기간에 만난 오류의 원인](https://github.com/Nayeon97/WIL/blob/9f3c94f9a800aedb9dc6a7b8a757145f2ec86959/JS/%EC%96%95%EC%9D%80%20%EB%B3%B5%EC%82%AC,%20%EA%B9%8A%EC%9D%80%20%EB%B3%B5%EC%82%AC.md)
+- [얕은 복사, 깊은 복사 : 팀프로젝트 기간에 만난 오류의 원인](https://github.com/Nayeon97/WIL/blob/9f3c94f9a800aedb9dc6a7b8a757145f2ec86959/JS/%EC%96%95%EC%9D%80%20%EB%B3%B5%EC%82%AC,%20%EA%B9%8A%EC%9D%80%20%EB%B3%B5%EC%82%AC.md) <br />
+
+- [e.target.value 를 사용하니 value 값이 undefined 으로 가져와진다...? : 2차 팀플때 만난 오류](https://github.com/Nayeon97/WIL/blob/723a8595dd5473e84db4cf9050a97264d8a469aa/JS/currentTarget..%3F.md)
 
 #### ✔️ React <br />
 
