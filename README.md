@@ -22,6 +22,8 @@
 
 - [비구조화 할당 사용법에 대해 알아보자](https://github.com/Nayeon97/WIL/blob/c88d22ad72f56953ea4daf3431a8d9bf793bb077/JS/%EB%B9%84%EA%B5%AC%EC%A1%B0%ED%99%94%20%ED%95%A0%EB%8B%B9.md)
 
+- [promise, await/async: 2차 팀플때 어이없는 실수를 했다..반성하자!](https://github.com/Nayeon97/WIL/blob/61f520801017fa38b44ee873f05d7919ec1f73f1/JS/promise.md)
+
 #### ✔️ React <br />
 
 - [리액트란?](https://github.com/Nayeon97/TIL/blob/1b3f3a8073d7eec0cc6d67a8dde53b553453e5ec/React/React.md)
