@@ -5,25 +5,26 @@
 작성일: 2022년 5월 16일
 
     ⭐️ 1차 프로젝트가 끝나고 2차 프로젝트에는 리액트의 렌더링 성능 최적화 관련한 hook을 사용해보겠다! 라는 다짐을 했었는데, 2차 프로젝트때 거의 사용해보지 못했다.
-    그 이유에 대해 생각해보니,  익숙하지 않은 기술에 대한 두려움 때문이였는 것 같다. 공부를 제대로 하지 않은 상태였기에  '과연 잘 쓸 수 있을까', '너무 오버스펙아닌가? ' , '이렇게 하는 것이 맞나? ' 하는 두려움들로 최적화를 하지 못한 채 2차 프로젝트가 마무리 되었다. 3차 프로젝트에는 제대로 사용해보기 위해 미리 공부하자!
+    그 이유에 대해 생각해보니,  익숙하지 않은 기술에 대한 두려움 때문이였는 것 같다.
+    공부를 제대로 하지 않은 상태였기에  '과연 잘 쓸 수 있을까', '너무 오버스펙아닌가? ' , '이렇게 하는 것이 맞나? ' 하는 두려움들로
+    최적화를 하지 못한 채 2차 프로젝트가 마무리 되었다. 3차 프로젝트에는 제대로 사용해보기 위해 미리 공부하자!
     useMemo, useCallback 에 대하여 알아보자!
 
 ### 📖 목차
 
 [1️⃣useMemo란](#1️⃣-usememo란)  
- [useMemo가 빛을 발하는 로직!](#usememo가-빛을-발하는-로직)
-[✅ 그런데 useMemo 잘 쓸 일이 없다...?](#그런데-usememo-잘-쓸-일이-없다)
-[2️⃣ useCallback란?](#2️⃣-usecallback란)
-[⚠️ 잠깐!](#잠깐)
-[그럼 useCallback도 useMemo 처럼 자주 사용하지 않는 것인가...?](#그럼-usecallback도-usememo-처럼-자주-사용하지-않는-것인가)
-[+ React.memo ?](#reactmemo)
-[HOC ... ?](#hoc)
-[다시 돌아와서 React.memo 에 대해 알아보자.](#다시-돌아와서-reactmemo-에-대해-알아보자)
-[React.memo 비교 방법 수정가능하다!](#reactmemo-비교-방법-수정가능하다)
-[⚠️ 콜백함수 주의하자!](#⚠️-콜백함수-주의하자)
-[useCallback, React.memo](#usecallback-reactmemo)
-[마지막으로 React.memo 언제 쓰면 좋을까?](#마지막으로-reactmemo-언제-쓰면-좋을까)
-[느낀점](#느낀점)
+ [useMemo가 빛을 발하는 로직!](#usememo가-빛을-발하는-로직)  
+ [✅ 그런데 useMemo 잘 쓸 일이 없다...?](#그런데-usememo-잘-쓸-일이-없다)  
+ [2️⃣ useCallback란?](#2️⃣-usecallback란)  
+ [⚠️ 잠깐!](#잠깐)  
+ [그럼 useCallback도 useMemo 처럼 자주 사용하지 않는 것인가...?](#그럼-usecallback도-usememo-처럼-자주-사용하지-않는-것인가)  
+ [+ React.memo ?](#reactmemo)  
+ [HOC ... ?](#hoc)  
+ [다시 돌아와서 React.memo 에 대해 알아보자](#다시-돌아와서-reactmemo-에-대해-알아보자)[React.memo 비교 방법 수정가능하다!](#reactmemo-비교-방법-수정가능하다)  
+ [⚠️ 콜백함수 주의하자!](#⚠️-콜백함수-주의하자)  
+ [useCallback, React.memo](#usecallback-reactmemo)  
+ [마지막으로 React.memo 언제 쓰면 좋을까?](#마지막으로-reactmemo-언제-쓰면-좋을까)  
+ [느낀점](#느낀점)
 
 ### 1️⃣ useMemo란?
 
