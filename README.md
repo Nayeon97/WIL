@@ -63,3 +63,5 @@
   - [제어문](Books/Modern_JS/8장_제어문.md)
 
   - [타입 변환과 단축 평가](https://github.com/Nayeon97/WIL/blob/6aa9cf050705ee4e21f555c9e63c74cbcee834a5/Books/Modern_JS/9%EC%9E%A5_%ED%83%80%EC%9E%85%20%EB%B3%80%ED%99%98%EA%B3%BC%20%EB%8B%A8%EC%B6%95%20%ED%8F%89%EA%B0%80.md)
+
+  - [객체 리터럴](https://github.com/Nayeon97/WIL/blob/f96db861a7cdb0c279a2ad50687d64a4e7f2abf0/Books/Modern_JS/10%EC%9E%A5_%EA%B0%9D%EC%B2%B4%20%EB%A6%AC%ED%84%B0%EB%9F%B4.md)
