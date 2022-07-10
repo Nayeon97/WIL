@@ -40,7 +40,7 @@
 
 - [아는만큼 렌더링을 최적화할 수 있다..! 공부하자 : useMemo, useCallback으로 시작해서 React.Memo, HOC 로 마무리...](<https://github.com/Nayeon97/WIL/blob/6377a358160b2d21ebfe78b806fa52b435566188/React/useMemo,%20useCallback(+React.memo).md>)
 
-- [useRef 에 대해 알아보자..!](https://github.com/Nayeon97/WIL/blob/aa9ba98a8964883dce9f89ebab2a3820b801c156/React/useRef.md)   
+- [useRef 에 대해 알아보자..!](https://github.com/Nayeon97/WIL/blob/aa9ba98a8964883dce9f89ebab2a3820b801c156/React/useRef.md)
 - [선언형 프로그래밍이란?](https://github.com/Nayeon97/WIL/blob/3f88fc9abf0e93ca7cc50834d589ee2ba74cd8bc/React/%EC%84%A0%EC%96%B8%ED%98%95%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
 - [Recoil : 프로젝트 시작 전 간단히 알아보자! 추가 업뎃 예정 ](https://github.com/Nayeon97/WIL/blob/0ee0e2cf99fbba8b31afcad91350706c430031a8/React/Recoil.md)
 
@@ -50,7 +50,8 @@
 
 - [데이터 저장소: 역시 그냥 생긴 것은 없다! 다 이유가 있다! ](https://github.com/Nayeon97/WIL/blob/4bccaefe769f8e6ea718c9a53ff2dfc625e3227a/HTML,%20Css/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%80%EC%9E%A5%EC%86%8C.md)
 
-#### ✔️ Etc
+#### ✔️ Computer Science
+
 - [Http](Etc/HTTP.md)
 
 #### ✔️ Books
@@ -69,7 +70,6 @@
 
   - [타입 변환과 단축 평가](https://github.com/Nayeon97/WIL/blob/6aa9cf050705ee4e21f555c9e63c74cbcee834a5/Books/Modern_JS/9%EC%9E%A5_%ED%83%80%EC%9E%85%20%EB%B3%80%ED%99%98%EA%B3%BC%20%EB%8B%A8%EC%B6%95%20%ED%8F%89%EA%B0%80.md)
 
-  - [객체 리터럴](https://github.com/Nayeon97/WIL/blob/f96db861a7cdb0c279a2ad50687d64a4e7f2abf0/Books/Modern_JS/10%EC%9E%A5_%EA%B0%9D%EC%B2%B4%20%EB%A6%AC%ED%84%B0%EB%9F%B4.md)  
+  - [객체 리터럴](https://github.com/Nayeon97/WIL/blob/f96db861a7cdb0c279a2ad50687d64a4e7f2abf0/Books/Modern_JS/10%EC%9E%A5_%EA%B0%9D%EC%B2%B4%20%EB%A6%AC%ED%84%B0%EB%9F%B4.md)
 
-  - [원시 값과 객체의 비교](https://github.com/Nayeon97/WIL/blob/0507f2eff602daf7e04db1de337778adfacea67a/Books/Modern_JS/11%EC%9E%A5_%EC%9B%90%EC%8B%9C%20%EA%B0%92%EA%B3%BC%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%B9%84%EA%B5%90.md) 
-
+  - [원시 값과 객체의 비교](https://github.com/Nayeon97/WIL/blob/0507f2eff602daf7e04db1de337778adfacea67a/Books/Modern_JS/11%EC%9E%A5_%EC%9B%90%EC%8B%9C%20%EA%B0%92%EA%B3%BC%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%B9%84%EA%B5%90.md)
