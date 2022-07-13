@@ -43,7 +43,7 @@
 - [useRef 에 대해 알아보자..!](https://github.com/Nayeon97/WIL/blob/aa9ba98a8964883dce9f89ebab2a3820b801c156/React/useRef.md)
 - [선언형 프로그래밍이란?](https://github.com/Nayeon97/WIL/blob/3f88fc9abf0e93ca7cc50834d589ee2ba74cd8bc/React/%EC%84%A0%EC%96%B8%ED%98%95%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
 - [Recoil (1) : 프로젝트 시작 전 간단히 알아보자! 추가 업뎃 예정 ](https://github.com/Nayeon97/WIL/blob/0ee0e2cf99fbba8b31afcad91350706c430031a8/React/Recoil.md)
-- [Recoil (2) : Recoil Selector 사용 후기 ](https://github.com/Nayeon97/WIL/blob/2649c00afd1b2e506f0d4c8a003d6f677534085a/React/Recoil%20Selector.md)
+- [Recoil (2) : Recoil Selector 사용 후기 ](React/Recoil Selector.md)
 
 #### ✔️ HTML & Css
 
