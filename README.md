@@ -53,7 +53,7 @@
 
 #### ✔️ Computer Science
 
-- [Http](Etc/HTTP.md)
+- [Http](https://github.com/Nayeon97/WIL/blob/3089c41455da91eb3b8db87228dd97d3dc89f099/Computer%20Science/HTTP.md)
 
 #### ✔️ Books
 
