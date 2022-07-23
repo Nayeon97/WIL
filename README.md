@@ -43,7 +43,8 @@
 - [useRef 에 대해 알아보자..!](https://github.com/Nayeon97/WIL/blob/aa9ba98a8964883dce9f89ebab2a3820b801c156/React/useRef.md)
 - [선언형 프로그래밍이란?](https://github.com/Nayeon97/WIL/blob/3f88fc9abf0e93ca7cc50834d589ee2ba74cd8bc/React/%EC%84%A0%EC%96%B8%ED%98%95%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
 - [Recoil (1) : 프로젝트 시작 전 간단히 알아보자! 추가 업뎃 예정 ](https://github.com/Nayeon97/WIL/blob/0ee0e2cf99fbba8b31afcad91350706c430031a8/React/Recoil.md)
-- [Recoil (2) : Recoil Selector 사용 후기 ](https://github.com/Nayeon97/WIL/blob/2a84d99fee8254510b7c3eb62f13e8f72dc81efb/React/Recoil%20Selector.md)
+- [Recoil (2) : Recoil Selector 사용 후기 ](https://github.com/Nayeon97/WIL/blob/2a84d99fee8254510b7c3eb62f13e8f72dc81efb/React/Recoil%20Selector.md)   
+- [3차 프로젝트 리팩터링 : Intersection Observer API](https://github.com/Nayeon97/WIL/blob/c5e7a4539800a6264edc1d5d7e88e9be1d8ff29b/React/Intersection%20Observer%20API.md)
 
 #### ✔️ HTML & Css
 
