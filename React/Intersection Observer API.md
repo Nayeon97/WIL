@@ -133,10 +133,14 @@ export const handleScroll = () => {
 콜백이 호출되지 않는다.        
 
 ### ⭐️ Intersection Observer API ⭐️  
-교차 관찰자 API(Intersection Observer API)는 상위요소 또는 최상위 문서의 뷰포트  와      
+
+Throttel 에 대해 알아보던 중 Intersection Observer API 을 알게 되었다!
+
+✔️ 교차 관찰자 API(Intersection Observer API)는 상위요소 또는 최상위 문서의 뷰포트  와      
 대상 요소의 교차점에서 변화를 비동기적으로 관찰할 수 있는 방법을 제공한다.  
 
-쉽게 말해, scroll 이벤트와 달리 타겟 요소가 다른 요소에 들어가거나 나갈 때 or 지정한 만큼 두 요소의 교차 부분이 변경될때마다 등록한 콜백함수를 실행할 수 있다!   
+쉽게 말해, scroll 이벤트와 달리 타겟 요소가 다른 요소에 들어가거나 나갈 때 or      
+지정한 만큼 두 요소의 교차 부분이 변경될때마다 등록한 콜백함수를 실행할 수 있다!   
 => 문제 2 해결!    
 
 ### ⚙️ 수정한 코드
